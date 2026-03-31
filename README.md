@@ -45,7 +45,7 @@ Each task takes two days:
 
 ## Google Colab Links
 * chunk-01
-    * Date - 30 and 31 March 2026 - task-01-groupby-agg
+    * Date - 30 and 31 March 2026 - [task-01-groupby-agg](https://colab.research.google.com/drive/1HtQqUaGwuwqrPF2IlhmnCRXaLu30ptr2?usp=sharing)
     * Date - 01 and 02 April 2026 - task-02-........
 
 ## Tools used
@@ -84,5 +84,5 @@ Hashtag: **#66DayDataEngineering**
 
 \---
 
-*Started: \30/03/2026 · Target completion: 66 days later*
+*Started: 30/03/2026 · Target completion: 66 days later*
 
