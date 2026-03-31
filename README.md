@@ -43,6 +43,11 @@ Each task takes two days:
 
 \---
 
+## Tasks
+** Chunk-01-Advanced aggregation and window functions
+ * Task 1 — Python · Days 1–2 - Scenario: You receive a sales DataFrame with 500 rows and columns rep_name, region, product, units_sold, revenue. Your manager asks for a single summary table showing — per region — the total revenue, the average units sold, the number of distinct reps, and the name of the top-earning rep.
+
+
 ## Google Colab Links
 * chunk-01
     * Date - 30 and 31 March 2026 - [task-01-groupby-agg](https://colab.research.google.com/drive/1HtQqUaGwuwqrPF2IlhmnCRXaLu30ptr2?usp=sharing)
