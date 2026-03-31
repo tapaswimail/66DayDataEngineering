@@ -44,16 +44,9 @@ Each task takes two days:
 \---
 
 ## Google Colab Links
-
-```
-
-\-chunk-01
-
-\--Date - 30 and 31 March 2026 - task-01-groupby-agg
-
-\--Date - 01 and 02 April 2026 - task-02-........
-
-```
+* chunk-01
+    * Date - 30 and 31 March 2026 - task-01-groupby-agg
+    * Date - 01 and 02 April 2026 - task-02-........
 
 ## Tools used
 
@@ -68,7 +61,7 @@ Each task takes two days:
 
 |Chunk|Theme|Tasks|Status|
 |-|-|-|-|
-|1|Aggregation \& window functions|1–3|⬜|
+|1|Aggregation \& window functions|1–3|🟡|
 |2|Cleaning \& deduplication|4–6|⬜|
 |3|Reshaping \& CTEs|7–9|⬜|
 |4|Strings, datetime, file formats|10–12|⬜|
@@ -91,5 +84,5 @@ Hashtag: **#66DayDataEngineering**
 
 \---
 
-*Started: \[date] · Target completion: 66 days later*
+*Started: \30/03/2026 · Target completion: 66 days later*
 
