@@ -55,7 +55,7 @@ Each task takes two days:
 
  * **Task 3 — Python · Days 5–6** - Scenario: A DataFrame records daily sales per store across 12 months. We need to compute — for each store — a 7-𝐝𝐚𝐲 𝐫𝐨𝐥𝐥𝐢𝐧𝐠 𝐚𝐯𝐞𝐫𝐚𝐠𝐞 𝐫𝐞𝐯𝐞𝐧𝐮𝐞, the 𝐦𝐨𝐧𝐭𝐡-𝐨𝐯𝐞𝐫-𝐦𝐨𝐧𝐭𝐡 𝐩𝐞𝐫𝐜𝐞𝐧𝐭𝐚𝐠𝐞 𝐜𝐡𝐚𝐧𝐠𝐞, and a 𝐟𝐥𝐚𝐠 𝐟𝐨𝐫 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐚𝐧𝐲 𝐫𝐨𝐥𝐥𝐢𝐧𝐠 𝐚𝐯𝐞𝐫𝐚𝐠𝐞 𝐞𝐱𝐜𝐞𝐞𝐝𝐞𝐝 ₹100,000.
    
-   **Solution-** Date - 3 to 5 April 2026 - [task-03-sql-cte](https://colab.research.google.com/drive/1KJ5sLtJIGBBYL3xjlJ0DgdDjbkYSTLBz?usp=sharing)
+   **Solution-** Date - 3 to 5 April 2026 - [task-03-python](https://colab.research.google.com/drive/1KJ5sLtJIGBBYL3xjlJ0DgdDjbkYSTLBz?usp=sharing)
 
 ## Tools used
 
