@@ -57,9 +57,9 @@ Each task takes two days:
    
    **Solution-** Date - 3 to 5 April 2026 - [task-03-python](https://colab.research.google.com/drive/1KJ5sLtJIGBBYL3xjlJ0DgdDjbkYSTLBz?usp=sharing)
 
- * **Task 4 — Python · Days 7–8** - Scenario: A raw CSV from a third-party vendor has these problems: the `revenue` column is a string with commas and a `₹` prefix (`'₹1,20,000'`), the `order_date` column is in `DD-Mon-YY` format (`'05-Jan-23'`), and the `is_priority` column holds the strings `'Yes'` and `'No'` instead of booleans.
+ * **Task 4 — Python · Days 7–8** - Scenario: A raw CSV from a third-party vendor has these problems: the `revenue` column is a string with commas and a `₹` prefix (`'₹1,20,000'`), the `order_date` column is in `DD-Mon-YY` format (`'05-Jan-23'`), and the `is_priority` column holds the strings `'Yes'` and `'No'` instead of booleans. Produce a cleaned DataFrame where all three columns have correct dtypes — `float64`, `datetime64[ns]`, `bool` — and `N/A` revenues are `NaN`. Accomplish this in a single chained pipeline using `.str.replace()`, `pd.to_datetime()`, and `.map()`.
    
-   **Solution-** Date - 9 to 10 April 2026 - [task-04-python](https://colab.research.google.com/drive/1bk3_1dXDMsj5Hm8vMgJQupM1K5vZdur-?usp=sharing)
+   **Solution-** Date - 9 to 10 April 2026 - [task-04-python](https://colab.research.google.com/drive/1UA_euQH4UB7p2UvoNowZQNbP9KwM_454?usp=sharing)
 
 ## Tools used
 
