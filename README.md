@@ -61,6 +61,13 @@ Each task takes two days:
    
    **Solution-** Date - 9 to 10 April 2026 - [task-04-python](https://colab.research.google.com/drive/1UA_euQH4UB7p2UvoNowZQNbP9KwM_454?usp=sharing)
 
+  * **Task 5 — SQL · Days 9–10** - Scenario: A `customers` table was loaded from two sources and has exact duplicates, near-duplicates (same `email`, different `created_at`), and rows where `phone` is the literal string `'NULL'` instead of a true NULL.
+
+    Produce three separate queries: (a) identify exact duplicate rows using `GROUP BY` all columns + `HAVING COUNT(*) > 1`, (b) keep only the most recent row per `email` using a CTE with `ROW_NUMBER()`, (c) replace the string `'NULL'` with a true SQL `NULL` using `NULLIF()`.
+   
+   **Solution-** Date - 19 April 2026 - [Task-05-SQL](https://colab.research.google.com/drive/1vL7vxy8HT_o4JH05j1VhhWLuVVYvc96G?usp=sharing)
+
+
 ## Tools used
 
 * Python 3.x · pandas · NumPy · pyarrow
