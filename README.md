@@ -65,7 +65,13 @@ Each task takes two days:
 
     Produce three separate queries: (a) identify exact duplicate rows using `GROUP BY` all columns + `HAVING COUNT(*) > 1`, (b) keep only the most recent row per `email` using a CTE with `ROW_NUMBER()`, (c) replace the string `'NULL'` with a true SQL `NULL` using `NULLIF()`.
    
-   **Solution-** Date - 19 April 2026 - [Task-05-SQL](https://colab.research.google.com/drive/1vL7vxy8HT_o4JH05j1VhhWLuVVYvc96G?usp=sharing)
+     **Solution-** Date - 19 April 2026 - [Task-05-SQL](https://colab.research.google.com/drive/1vL7vxy8HT_o4JH05j1VhhWLuVVYvc96G?usp=sharing)
+
+  * **Task 6 — Python · Days 9–10** - Scenario: A DataFrame of 100,000 web events has a user_id, session_id, event_type, and timestamp. Due to double-ingestion, roughly 20% of rows are exact duplicates. Another 5% are near-duplicates where everything matches except the timestamp differs by less than 1 second.
+
+    Produce: A two-step deduplication: (1) drop exact duplicates with drop_duplicates() keeping the first occurrence; (2) for near-duplicates, round timestamp down to the nearest second using .dt.floor('1s') and then deduplicate on (user_id, session_id, event_type, floored_timestamp). Report row counts after each step.
+   
+     **Solution-** Date - 21 April 2026 - [Task-06-Python](https://colab.research.google.com/drive/1xmdWI-JfCl41P64wfbsppmizvbqYe_GY?usp=sharing)
 
 
 ## Tools used
@@ -82,8 +88,8 @@ Each task takes two days:
 |Chunk|Theme|Tasks|Status|
 |-|-|-|-|
 |1|Aggregation \& window functions|1–3|✅|
-|2|Cleaning \& deduplication|4–6|🟡|
-|3|Reshaping \& CTEs|7–9|⬜|
+|2|Cleaning \& deduplication|4–6|✅|
+|3|Reshaping \& CTEs|7–9|🟡|
 |4|Strings, datetime, file formats|10–12|⬜|
 |5|DuckDB, JSON, large files|13–15|⬜|
 |6|ETL patterns \& error handling|16–18|⬜|
