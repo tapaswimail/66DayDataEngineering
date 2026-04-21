@@ -67,7 +67,7 @@ Each task takes two days:
    
      **Solution-** Date - 19 April 2026 - [Task-05-SQL](https://colab.research.google.com/drive/1vL7vxy8HT_o4JH05j1VhhWLuVVYvc96G?usp=sharing)
 
-  * **Task 6 — Python · Days 9–10** - Scenario: A DataFrame of 100,000 web events has a user_id, session_id, event_type, and timestamp. Due to double-ingestion, roughly 20% of rows are exact duplicates. Another 5% are near-duplicates where everything matches except the timestamp differs by less than 1 second.
+  * **Task 6 — Python · Days 11–12** - Scenario: A DataFrame of 100,000 web events has a user_id, session_id, event_type, and timestamp. Due to double-ingestion, roughly 20% of rows are exact duplicates. Another 5% are near-duplicates where everything matches except the timestamp differs by less than 1 second.
 
     Produce: A two-step deduplication: (1) drop exact duplicates with drop_duplicates() keeping the first occurrence; (2) for near-duplicates, round timestamp down to the nearest second using .dt.floor('1s') and then deduplicate on (user_id, session_id, event_type, floored_timestamp). Report row counts after each step.
    
